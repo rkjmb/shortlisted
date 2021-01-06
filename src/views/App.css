@@ -1,0 +1,39 @@
+.App{
+    font-family: 'Poppins', sans-serif,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    min-height: 100vh;
+    height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.loader{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.flex{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainContainer{
+    padding: 3em;
+    flex: 1;
+    justify-content: center;
+}
+.navbar{
+   background-color: beige;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.cardWrapper{
+    text-align: center;
+}
